@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-grocery-list-app/static/css/main.d270a087.css",
-    "main.js": "/my-grocery-list-app/static/js/main.a87ebfc2.js",
-    "static/js/787.d7f90fcc.chunk.js": "/my-grocery-list-app/static/js/787.d7f90fcc.chunk.js",
-    "index.html": "/my-grocery-list-app/index.html",
-    "main.d270a087.css.map": "/my-grocery-list-app/static/css/main.d270a087.css.map",
-    "main.a87ebfc2.js.map": "/my-grocery-list-app/static/js/main.a87ebfc2.js.map",
-    "787.d7f90fcc.chunk.js.map": "/my-grocery-list-app/static/js/787.d7f90fcc.chunk.js.map"
+    "main.css": "/static/css/main.65b1f649.css",
+    "main.js": "/static/js/main.3b285bb9.js",
+    "static/js/787.d7f90fcc.chunk.js": "/static/js/787.d7f90fcc.chunk.js",
+    "index.html": "/index.html",
+    "main.65b1f649.css.map": "/static/css/main.65b1f649.css.map",
+    "main.3b285bb9.js.map": "/static/js/main.3b285bb9.js.map",
+    "787.d7f90fcc.chunk.js.map": "/static/js/787.d7f90fcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d270a087.css",
-    "static/js/main.a87ebfc2.js"
+    "static/css/main.65b1f649.css",
+    "static/js/main.3b285bb9.js"
   ]
 }
