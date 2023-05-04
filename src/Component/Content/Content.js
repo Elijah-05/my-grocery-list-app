@@ -25,7 +25,7 @@ function Content({ items, newItem, newPrice, quantity, setNewItem, setNewPrice, 
         />
         <DescriptionBar />
         <ListItem
-          items={items.filter((item) => regEx.test(item.name))}
+          items={items !== null ? items.filter((item) => regEx.test(item.name)) : items}
           handleDelete={handleDelete}
         />
     </main>

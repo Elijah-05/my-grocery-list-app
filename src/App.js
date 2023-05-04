@@ -1,14 +1,21 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Header from "./Component/Header/Header";
 import Content from "./Component/Content/Content";
 import Summary from "./Component/Summary/Summary";
 
 function App() {
-  const [items, setItems] = useState(JSON.parse(localStorage.getItem('myGroceryList')));
+  const [items, setItems] = useState([]);
   const [search, setSearch] = useState('');
   const [newItem, setNewItem] = useState('');
   const [newPrice, setNewPrice] = useState('');
   const [quantity, setQuantity] = useState('');
+
+  useEffect(() => {
+    const storedValue = localStorage.getItem('myGroceryList');
+    if (storedValue !== null) {
+      setItems(JSON.parse(storedValue));
+    }
+  }, []);
 
   const handleDelete = (id, name) => {
     const changeItem = items.filter((item) => item.id !== id && item.name !== name )
